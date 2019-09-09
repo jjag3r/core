@@ -29,7 +29,7 @@
     "vinkla/hashids": "^7.0",
     "optimus/heimdal" : "~1.5",
     "dto/dto" : "^3.2",
-    "kalnoy/nestedset": "~4.3.5"
+    "kalnoy/nestedset": "~5.0.0"
   },
   "require-dev": {
 
