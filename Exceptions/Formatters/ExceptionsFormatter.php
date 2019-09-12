@@ -4,14 +4,13 @@ namespace Apiato\Core\Exceptions\Formatters;
 
 use Exception;
 use Illuminate\Http\JsonResponse;
-use Optimus\Heimdal\Formatters\BaseFormatter as HeimdalBaseFormatter;
 
 /**
  * Class ExceptionsFormatter
  *
  * @author  Mahmoud Zalt  <mahmoud@zalt.me>
  */
-abstract class ExceptionsFormatter extends HeimdalBaseFormatter
+abstract class ExceptionsFormatter
 {
 
     /**
