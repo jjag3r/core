@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Schema;
 use Kalnoy\Nestedset\NestedSetServiceProvider;
 use Laravel\Tinker\TinkerServiceProvider;
-use Prettus\Repository\Providers\RepositoryServiceProvider;
 use Spatie\Fractal\FractalFacade;
 use Spatie\Fractal\FractalServiceProvider;
 use Vinkla\Hashids\Facades\Hashids;
@@ -45,7 +44,6 @@ class ApiatoProvider extends AbstractMainProvider
     public $serviceProviders = [
         // Third Party Packages Providers:
         HashidsServiceProvider::class,
-        RepositoryServiceProvider::class,
         CorsServiceProvider::class,
         FractalServiceProvider::class,
         NestedSetServiceProvider::class,
